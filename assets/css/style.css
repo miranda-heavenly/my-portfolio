@@ -94,8 +94,8 @@ h6 {
 
 #header h2 span {
   color: #ffffff;
-  border-bottom: 2px solid #C8B606;
-  padding-bottom: 6px;
+  /* border-bottom: 2px solid #ffffff; */
+  /* padding-bottom: 6px; */
 }
 
 #header img {
