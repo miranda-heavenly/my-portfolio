@@ -13,8 +13,8 @@ body::before {
   content: "";
   position: fixed;
   background: #fcfcfc;  /* fallback colour. Make sure this is just one solid colour. */
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bg.jpg") top right no-repeat;;
-  background: linear-gradient(rgba(0, 0, 71, 0.616), rgba(63, 22, 0, 0.8)), url("../img/bg.jpg") top right no-repeat;; 
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bg.png") top right no-repeat;;
+  background: linear-gradient(rgba(0, 0, 71, 0.226), rgba(63, 22, 0, 0.527)), url("../img/bg.png") top right no-repeat;; 
   /* background: url("../img/bg.jpg");  */
   /* box-shadow: inset 0 0 0 2000px rgba(4, 0, 255, 0.521); */
   background-size: cover;
@@ -122,7 +122,7 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background: #ffffff;
+  background: #C8B606;
 }
 
 @media (max-width: 992px) {
@@ -256,7 +256,7 @@ h6 {
 .navbar .active:before {
   visibility: visible;
   width: 25px;
-/* Make active nav items have a circular border */
+/* Make active nav items have a circular border
   height: 5px;
   width: 5px;
   background-color: #C8B606;
@@ -264,7 +264,7 @@ h6 {
   display: inline-block;
   margin-top: 40px;
   position: absolute;
-  text-align: center;
+  text-align: center; */
 }
 
 .navbar a:hover,
