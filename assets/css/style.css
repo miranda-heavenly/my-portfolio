@@ -93,8 +93,8 @@ h6 {
 
 #header h2 span {
   color: #ffffff;
-  /* border-bottom: 2px solid #ffffff; */
-  /* padding-bottom: 6px; */
+  border-bottom: 2px solid #C8B606;
+  padding-bottom: 4px;
 }
 
 #header img {
@@ -256,6 +256,15 @@ h6 {
 .navbar .active:before {
   visibility: visible;
   width: 25px;
+/* Make active nav items have a circular border */
+  height: 5px;
+  width: 5px;
+  background-color: #C8B606;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 40px;
+  position: absolute;
+  text-align: center;
 }
 
 .navbar a:hover,
