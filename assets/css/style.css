@@ -12,11 +12,10 @@ body {
 body::before {
   content: "";
   position: fixed;
-  overflow: hidden;
   background: #fcfcfc;  /* fallback colour. Make sure this is just one solid colour. */
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bg.jpg");
-  background: linear-gradient(rgba(0, 0, 71, 0.616), rgba(63, 22, 0, 0.8)), url("../img/bg.jpg"); The least supported option. */
-  background: url("../img/bg.jpg"); /* The least supported option. */
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bg.jpg") top right no-repeat;;
+  background: linear-gradient(rgba(0, 0, 71, 0.616), rgba(63, 22, 0, 0.8)), url("../img/bg.jpg") top right no-repeat;; 
+  /* background: url("../img/bg.jpg");  */
   /* box-shadow: inset 0 0 0 2000px rgba(4, 0, 255, 0.521); */
   background-size: cover;
   left: 0;
